@@ -1,0 +1,56 @@
+.banner {
+width: 100%;
+background-image: url(images/sports.jpeg);
+text-align: center;
+padding: 140px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.conntainer {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255)
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255)
+}
+
+img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255)
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.card {
+    display: grid;
+    background-color: rgb(0, 168, 253);
+    border-radius: 5px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.playlist {
+
+}
